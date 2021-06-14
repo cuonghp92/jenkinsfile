@@ -16,6 +16,6 @@ stages{
   }
   }
   def getTerraformPath(){
-  tfHome = tool name: 'terraform-0.15.4', type:'terraform'
+  tfHome = tool name: 'terraform-0.15.4', type: 'terraform'
   return tfHome
   }
